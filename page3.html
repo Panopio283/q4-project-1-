@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<title>page 2</title>
+</head>
+
+<style>
+	body {
+			background-size: cover;
+			background-image: url("https://i.pinimg.com/736x/4d/c3/d4/4dc3d413663f759679ceae46a9ad4ce8.jpg");
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			background-attachment: fixed;
+			margin: 30px;
+			border: 30px;
+		}
+
+		.header{
+			background-color: #F6A8C0;
+			padding: 5px;
+			font-size: 25px;
+		}
+
+		h1 {
+			color: #A20639;
+			font-weight: bold;
+			text-align: center;
+			font-size: 50px;
+			letter-spacing: 5px;
+		}
+
+		img {
+			width: 500px;
+			border: thick double black;
+			border-color: #E75E8B;;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 40px;
+			text-align: center;
+			color: #B0033B;
+			letter-spacing:px;
+		}
+
+		p{
+			border: thick solid black;		
+			border-color: #D54E7A;
+			text-align: center;
+			background-color: #FED2E0;
+			padding: 5px;
+			letter-spacing: 2px;
+			font-family: cursive;
+			color: black;
+		}
+
+		a{
+			background-color: #FFD1E0;
+		}
+
+		.container{
+			display: grid;
+			flex-wrap: wrap;
+			text-align: center;
+			grid-template-columns: 1fr 1.5fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			gap: 17px 17px;
+			grid-auto-flow: row;
+			grid-template-areas: "i i2 i3" "d d2 d3" ". . . .";
+			margin-left: 23px;
+			margin-right: auto;
+		}
+
+		.inline-row {
+			display: flex;
+			justify-content: flex-start;
+		}
+
+		.i { grid-area: i; }
+		.i2 { grid-area: i2; }
+		.i3 { grid-area: i3; }
+		.d { grid-area: d; }
+		.d2 { grid-area: d2; }
+		.d3 { grid-area: d3; }
+</style>
+
+<body>
+	<div class="overlay">
+	<div class="header">
+		<h1>Local Attractions in the Philippines</h1>
+		<p>Have you ever wanted to explore the beautiful places the Philippines has to offer, but have no idea where to begin? Fear not! Here is a guide composed of a few of the pinoy-favorites attractions of the country!</p>
+	</div>
+
+	<div class="container">
+		<div class=item>
+			<h2>Rizal Park</h2>
+			<a href="https://www.lonelyplanet.com/philippines/manila/attractions/rizal-park/a/poi-sig/391109/357305">References</a>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rizal_Monument_at_Rizal_Park.jpg/800px-Rizal_Monument_at_Rizal_Park.jpg">
+			<p>As the place where José Rizal was executed by the Spanish colonial authorities, it's also of great historical significance. The Rizal Park Visitors Centre provides a map detailing some 40 sights within the park.</p>
+		</div>
+
+		<div class="item">
+			<h2>Fort Santiago</h2>
+			<a href= "https://intramuros.gov.ph/fs/">References</a>
+			<img src="https://www.tripsavvy.com/thmb/zVjvBeG_XRv3zwVeq3A_R_TtMfU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-515030857-599ff63e03f402001100ee1d-6218e3c18a3a4503a2a1fb183ce8ccfb.jpg">
+			<p>Intramuros, or the 'Walled City', is one of the oldest districts of Manila, built on the south bank of the Pasig River around 1571. It was built by the Spaniards – more specifically by Miguel Lopez de Legaspi – and is bound on all sides by moats and thick, high walls, with some over 6 metres high.</p>
+		</div>
+
+		<div class="item">
+			<h2>Puerto Princesa</h2>
+			<a href= "https://guidetothephilippines.ph/articles/ultimate-guides/puerto-princesa-travel-guide">References</a>
+			<img src="https://www.kkday.com/en/blog/wp-content/uploads/ph_palawan-1170x675.jpg">
+			<p>A city on Palawan Island on the coastal side of the western Philippines. Known for their infamous boat rides, undergrond rivers, and the clear waters. Additionally, it is also home to long-nosed dophins, turtles, and rays.</p>
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
